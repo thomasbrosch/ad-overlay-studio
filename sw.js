@@ -1,5 +1,5 @@
 // Offline shell + runtime cache for fonts. Bump VERSION when you deploy changes.
-const VERSION = 'aos-v1';
+const VERSION = 'aos-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'vendor/jszip.min.js', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener('activate', e => {

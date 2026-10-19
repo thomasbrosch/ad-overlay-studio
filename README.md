@@ -6,6 +6,13 @@ Batch-add headlines and CTA buttons to ad images. Runs **100% in your browser**:
 
 On a phone, open the link and choose **Add to Home Screen** to install it as an app. It also works offline once loaded.
 
+## What it does
+
+- **10+ layouts per image** (corner text, bands, boxes, highlights) in every ad size
+- **Button shapes:** pill, rounded, square, or a **corner flap** tucked flush into the corner
+- **Fade Band layouts:** a gradient banner that fades to fully transparent 25–50 px before the image edges
+- **Collage maker:** combine 2–4 photos into one image, then add headlines and buttons on top
+
 ## Run it on your own machine
 
 No build step and no dependencies.
